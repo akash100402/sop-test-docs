@@ -1,0 +1,106 @@
+project 1: Project Helios
+
+--> its a centralized customer intelligence platform
+
+objective: 
+
+Its objective is to unify real-time behavioral data from six disparate sources—web, mobile app, partner APIs, support tickets, transaction logs, and IoT streams—into a single, queryable customer profile.
+
+Right now, customer information is scattered everywhere—like having someone’s Instagram, email, purchase history, and support chats all in different places with no way to see them together.
+
+Helios brings all that scattered info into one dashboard in real time, so the company can instantly know everything about a customer the moment they interact and provide personalized products they like.
+
+real time example
+
+Scenario:
+Sarah is shopping online for a laptop on her phone.
+
+Step-by-Step Real-Time Flow
+1. Data Collection
+Sarah:
+
+Visits the website → Web stream
+
+Logs into her account → Mobile app stream
+
+Adds laptop to cart → Transaction log
+
+Chats with support about warranty → Support ticket
+
+Pays using her saved card → Partner API (payment gateway)
+
+Has a smartwatch tracking her activity → IoT stream
+
+
+give suggession based on her data combined
+
+---------------------------------------------------------------------------------------------------------
+
+
+project 2: Project Aegis
+
+--> its a real-time compliance orchestration engine
+
+objective: 
+
+Automate real-time compliance checks for cross-border digital transactions under regulations like GDPR, CCPA, and APAC data frameworks. 
+
+1. GDPR (General Data Protection Regulation)
+2. CCPA (California Consumer Privacy Act)
+3. APAC (Asia-Pacific Region)
+
+Real-Time Example:
+A customer in Germany buys digital software from a company in California.
+
+Transaction submitted → enters Aegis Ingestion Gateway.
+
+The system assigns it an Aegis ID and sends it to Kafka.
+
+The Rules Engine pulls in GDPR rules for Germany and CCPA for California.
+
+It checks:
+
+Did the user consent to data sharing?
+
+Is the payment method compliant with APAC rules if the bank is in Singapore?
+
+Is the transaction amount within legal limits?
+
+Engine calculates a Compliance Score.
+
+If score is below 95%, it’s flagged for Human Review Dashboard.
+
+If approved, the transaction proceeds instantly; if not, it’s blocked or flagged for legal review.
+
+------------------------------------------------------------------------------------------------------------------
+
+project 3: real-time transaction risk scoring engine
+
+real-time transaction risk scoring engine
+
+objective: 
+
+Project Titan is a real-time transaction risk scoring engine that evaluates every transaction (payments, credit, account changes).
+Its goal is to catch fraud without interrupting  legitimate customers.
+
+like it will check the change in region of transaction, unusuall payment transaction, typing rythm like 300+ risk signals are noted anomaly and set the score
+
+------------------------------------------------------------------------------------------------------------------
+
+project 4: Project Sentinel
+
+cyber detective system
+
+objective:
+
+Its job is to find hackers before they attack, by connecting clues from all over the internet and inside the company's own systems.
+
+clues can be take from:
+
+Internal: Firewall logs, employee laptop alerts, cloud activity
+
+External: Hacker forums, security feeds, dark web mentions
+
+Finds: A suspicious IP, a leaked password, a new malware file
+
+
